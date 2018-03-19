@@ -1,7 +1,7 @@
 .site-container {
   width: 100vw;
   height: 100vh;
-  background-image: url("../img/ideas.jpg");
+  background-image: url("../img/desk.jpg");
   color: black;
 }
 
@@ -13,7 +13,34 @@ main h1 {
 }
 
 .projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.projects div {
+  display: inline-block;
+  height:200px;
+  width: 200px;
+  border: solid 2px yellow;
+  margin: 15px;
+
+  text-align: center;
+}
+
+.projects h2 {
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 0;
+}
+
+.git {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+}
+
+.projects img:hover {
+  background-color: white;
 }

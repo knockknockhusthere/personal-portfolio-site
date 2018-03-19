@@ -69,3 +69,12 @@ main h3 {
   margin-left: 38%;
   margin-top: -10px;
 }
+
+footer {
+  position:fixed;
+  color: white;
+  left:0px;
+  bottom:5px;
+  height:30px;
+  width:100%;
+}
