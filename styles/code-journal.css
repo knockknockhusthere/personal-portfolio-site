@@ -1,0 +1,104 @@
+.site-container {
+  background-color: #F2B5C7;
+}
+
+.bkimg {
+  width: 100vw;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("../img/pink.jpg");
+}
+.latest_posts {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  min-height: 250px;
+  margin-bottom: 110px;
+}
+
+main h1 {
+  font-size: 4em;
+  margin-top: 10%;
+  margin-left: 0;
+  text-align: center;
+}
+main h2 {
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+}
+
+.latest_posts div {
+  display: inline-block;
+  height:200px;
+  width: 250px;
+  margin: 15px;
+  border: solid 2px grey;
+  text-align: center;
+  background-color: #DCDFE2;
+  border-radius: 10%;
+}
+
+.latest_posts div:hover {
+  border: solid 2px yellow;
+}
+
+p {
+  font-size: 1.5em;
+  color: #F2B5C7;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row ;
+  flex-wrap: wrap;
+}
+
+.posts {
+  top: 1500px;
+  color: black;
+  /* background-color: #F2B5C7; */
+}
+
+.posts div {
+  background-color: #F2BFCE;
+  margin-top: 3em;
+  margin-bottom: 30px;
+}
+
+.posts h3 {
+  margin-top: 2em;
+  color: black;
+}
+
+.posts p {
+  color: black;
+}
+
+footer {
+  position:fixed;
+  font-family: none;
+  color: white;
+  left:0px;
+  bottom:15px;
+  height:30px;
+  width:100%;
+  font-size: .8em;
+  font-weight: none;
+}
